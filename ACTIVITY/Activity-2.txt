@@ -1,0 +1,25 @@
+ACTIVITY -02
+🎯 Activity Title:
+“Data Collection!”
+________________________________________
+Objective:
+The purpose of this activity is to help students understand how data is collected, classified, and prepared for analysis. Students will learn how to define problem statements, identify relevant features, categorize data into proper types, and select appropriate data collection techniques.
+________________________________________
+Assignment Description:
+1.	Choose a Problem Statement:
+o	Identify a real-world problem or scenario in your surroundings/locality/institution (e.g., traffic congestion, water usage, electricity consumption, waste management, attendance tracking, etc.).
+2.	Define the Data Features:
+o	Clearly specify what data points (features) you need to collect to study the chosen problem.
+o	Example: For traffic congestion – vehicle count, peak hours, traffic signals, etc.
+3.	Identify Data Types:
+o	Classify your data based on:
+(a) Type 1: Cross-sectional or Time-series data.
+(b) Type 2: Categorical, Ordinal, Interval, Ratio.
+4.	Select Data Collection Techniques:
+o	Decide how you will collect the data (e.g., observation, surveys, sensors, interviews, government reports, or secondary data sources).
+5.	Write a Short Report:
+o	Your report should include:
+	Problem statement (2–3 lines).
+	List of features (with data types).
+	Data collection plan (techniques and reasons for choosing them).
+	Data collected

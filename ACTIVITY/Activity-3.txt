@@ -1,0 +1,29 @@
+ACTIVITY -03
+🎯 Activity Title:
+“Exploring GitHub – Your First Pull Request (PR)!”
+________________________________________
+Objective:
+The goal of this activity is to familiarize students with GitHub, a collaborative platform for version control and open-source contributions. Students will learn how to work with repositories, make changes, and send Pull Requests (PRs) – a key part of collaborative software development.
+________________________________________
+Assignment Description:
+1.	Create a GitHub Account:
+o	If you don’t already have a GitHub account, create one at https://github.com.
+2.	Explore a Repository:
+o	You will be provided with a sample repository link (or you can fork an open repository of your choice).
+o	Fork the repository into your GitHub account.
+3.	Clone the Repository Locally:
+o	Use git clone <repo_link> to create a local copy of the repository on your system.
+4.	Make Changes:
+o	Add a new file (e.g., yourname.md) or update the README file with your name, a short bio, or any required content.
+5.	Commit and Push:
+o	Commit your changes using git commit -m "Your commit message" and push them to your forked repository.
+6.	Create a Pull Request (PR):
+o	Go to your repository on GitHub and create a Pull Request to the original repository.
+o	Add a proper title and a brief description of your changes.
+7.	Submit Evidence:
+o	Take a screenshot of your PR and submit it along with the PR link.
+________________________________________
+Submit a document containing:
+1.	Your GitHub profile name
+2.	Steps to add file and make changes
+3.	The link to your Pull Request.

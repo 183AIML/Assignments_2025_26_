@@ -1,0 +1,42 @@
+ACTIVITY -01
+🎯 Activity Title:
+“Design Your Own Cloud Solution!”
+________________________________________
+📘 Objective:
+To help students:
+•	Understand cloud service and deployment models
+•	Explore real-world applications of cloud computing
+•	Develop basic cloud solution design skills
+•	Practice collaboration and presentation
+________________________________________
+👥 Group Setup:
+•	Divide the class into teams of 3–5 students
+•	Each team acts as a “Cloud Consulting Company”
+•	Time required: 60–90 minutes
+________________________________________
+📝 Task Brief:
+Each team must design a cloud-based solution for the following scenarios:
+📦 Scenario Options:
+1.	A startup wants to launch an e-commerce website.
+2.	A university needs to offer online learning and student data storage.
+3.	A hospital wants to manage patient records securely.
+4.	A media company needs scalable storage for videos.
+5.	A financial firm wants to analyze real-time stock data.
+________________________________________
+
+🔧 Team Must Decide:
+1.	Which Cloud Service Model?
+o	SaaS, PaaS, IaaS
+o	Why is it best for the scenario?
+2.	Which Deployment Model?
+o	Public, Private, Hybrid, or Community
+o	Justify your choice
+3.	Cloud Provider Chosen:
+o	AWS, Azure, Google Cloud, or any other
+________________________________________
+📢 Presentation (5–7 Minutes per Group):
+Each team presents:
+•	Their scenario and challenges
+•	Their cloud solution
+•	Why they chose the models and provider
+•	Benefits and potential risks
