@@ -1,0 +1,18 @@
+ACTIVITY -04
+🎯 Activity Title:
+Understanding Statistical Tests in Action
+Objective:
+To research, understand, and present a statistical test of choice—its purpose, application, computation, and limitations—using real-world data and examples.
+Each student will select one statistical test (e.g., Chi-square, t-test, ANOVA, Z-test, correlation, regression, etc.) and prepare a short presentation covering the following:
+1.	Test Overview
+o	What is the test and when is it used?
+o	Types/variations (if any)
+2.	Step-by-Step Explanation
+o	Formula and key components
+o	Conditions and assumptions for valid use
+3.	Application Example
+o	Use a real-world scenario or dataset
+o	Demonstrate test execution and interpret results (optional: use Excel, Python, or other tools)
+4.	Strengths & Limitations
+o	When the test works well
+o	Common pitfalls and constraints
