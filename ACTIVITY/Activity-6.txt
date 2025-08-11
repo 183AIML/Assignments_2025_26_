@@ -1,0 +1,7 @@
+ACTIVITY -06
+🎯 Activity Title:
+“Linear Regression in Action”
+________________________________________
+Objective:
+Explore how linear regression is applied in real-life scenarios, find at least 2 real-life problems in a sector of your choice where linear regression could be applied. Identify both Dependent variable (Y) and Independent variable(s)
+________________________________________
