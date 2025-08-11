@@ -1,0 +1,7 @@
+ACTIVITY -05
+🎯 Activity Title:
+“Regression in the Real World”
+________________________________________
+Objective:
+Investigate how regression is applied in various industries to predict outcomes, analyze trends, and support decision-making. Select one sector of your choice and present your findings on at least two real-world applications of regression within that sector.
+________________________________________
