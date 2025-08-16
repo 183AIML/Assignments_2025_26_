@@ -1,0 +1,7 @@
+ACTIVITY -07
+🎯 Activity Title:
+“Exploring Advanced Regression Algorithms and Their Applications”
+________________________________________
+Objective:
+Explore regression algorithms beyond simple and multiple linear regression, and prepare a report detailing their working principles, limitations, and suitable real-world applications.
+________________________________________
