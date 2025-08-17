@@ -1,0 +1,7 @@
+ACTIVITY -08
+🎯 Activity Title:
+“Classification in Action: Real-World Applications Across Industries”
+________________________________________
+Objective:
+Explore how classification is applied in different industries. For at least two industries, identify real-world applications, specify the classes involved, and determine the type of classification problem (binary, multiclass, or multilabel).
+________________________________________
