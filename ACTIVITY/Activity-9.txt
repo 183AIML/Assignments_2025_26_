@@ -1,0 +1,7 @@
+ACTIVITY -09
+🎯 Activity Title:
+“Exploring Deep Learning Applications”
+________________________________________
+Objective:
+Explore and list at least five use cases of deep learning in two fields. For each use case, describe what change or impact it brings.
+________________________________________
