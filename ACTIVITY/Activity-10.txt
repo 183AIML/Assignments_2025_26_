@@ -1,0 +1,7 @@
+ACTIVITY -10
+🎯 Activity Title:
+“Exploring MLOps Platforms and Their Real-World Applications”
+________________________________________
+Objective:
+Explore different MLOps Platforms and identify their key features, and present a real-world use case where the platform is applied.
+________________________________________
