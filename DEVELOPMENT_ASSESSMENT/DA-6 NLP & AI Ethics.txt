@@ -1,0 +1,141 @@
+AIML-DA-06 — NLP & AI Ethics
+
+1. Which of the following is a key principle of AI ethics?
+A. Bias promotion
+B. Transparency
+C. Profit maximization
+D. Data secrecy
+Answer: B. Transparency
+
+2. What does the term "AI bias" refer to?
+A. Errors caused by machine breakdown
+B. Inaccurate labeling of data
+C. Systematic unfairness in AI outcomes
+D. Random errors in predictions
+Answer: C. Systematic unfairness in AI outcomes
+
+3. Which principle ensures AI systems are designed to benefit humans?
+A. Accountability
+B. Human-centricity
+C. Automation
+D. Optimization
+Answer: B. Human-centricity
+
+4. "Data privacy" in AI means:
+A. Restricting model training
+B. Protecting personal data from misuse
+C. Making data public
+D. Encrypting all models
+Answer: B. Protecting personal data from misuse
+
+5. Which of the following best describes "Algorithmic accountability"?
+A. Keeping algorithms secret
+B. Responsibility for decisions made by AI
+C. Algorithm optimization
+D. Testing algorithm performance
+Answer: B. Responsibility for decisions made by AI
+
+6. Which ethical concern arises when facial recognition is deployed in public areas?
+A. Model interpretability
+B. Privacy invasion
+C. Reinforcement learning
+D. Data augmentation
+Answer: B. Privacy invasion
+
+7. Which of the following principles ensures that AI does not discriminate against any group?
+A. Justice and fairness
+B. Efficiency
+C. Autonomy
+D. Precision
+Answer: A. Justice and fairness
+
+8. Which of these is an example of ethical risk in AI?
+A. Overfitting
+B. Model accuracy
+C. Deepfake generation
+D. Feature scaling
+Answer: C. Deepfake generation
+
+9. Which principle aims to ensure AI does not harm human dignity or rights?
+A. Beneficence
+B. Efficiency
+C. Objectivity
+D. Automation
+Answer: A. Beneficence
+
+10. Bias mitigation in AI can be achieved by:
+A. Using diverse datasets
+B. Using smaller datasets
+C. Removing all labels
+D. Avoiding model testing
+Answer: A. Using diverse datasets
+
+11. The main goal of NLP is to:
+A. Create images from text
+B. Enable computers to understand human language
+C. Design neural networks
+D. Manage numerical data
+Answer: B. Enable computers to understand human language
+
+12. Tokenization in NLP refers to:
+A. Removing stopwords
+B. Breaking text into smaller units (words/tokens)
+C. Stemming words
+D. Encoding sentences
+Answer: B. Breaking text into smaller units (words/tokens)
+
+13. Stopwords are:
+A. Words with negative meaning
+B. Words with high frequency but low information
+C. Words used for punctuation
+D. Keywords in NLP tasks
+Answer: B. Words with high frequency but low information
+
+14. Which library is widely used for NLP in Python?
+A. Matplotlib
+B. Pandas
+C. NLTK
+D. OpenCV
+Answer: C. NLTK
+
+15. Lemmatization converts:
+A. Text into numbers
+B. Words into their base or dictionary form
+C. Data into features
+D. Stopwords into tokens
+Answer: B. Words into their base or dictionary form
+
+16. Which of the following is a real-world application of NLP?
+A. Image classification
+B. Speech-to-text conversion
+C. Object detection
+D. Edge computing
+Answer: B. Speech-to-text conversion
+
+17. Part-of-Speech (POS) tagging involves:
+A. Classifying text sentiment
+B. Identifying grammatical roles of words
+C. Removing punctuation
+D. Tokenizing sentences
+Answer: B. Identifying grammatical roles of words
+
+18. Word embeddings represent words as:
+A. Strings
+B. One-hot vectors
+C. Dense numerical vectors
+D. Sentences
+Answer: C. Dense numerical vectors
+
+19. TF-IDF gives higher weight to words that are:
+A. Common across all documents
+B. Rare but significant in a document
+C. Stopwords
+D. Numbers
+Answer: B. Rare but significant in a document
+
+20. Sentiment analysis is an example of:
+A. Regression
+B. Classification
+C. Clustering
+D. Reinforcement learning
+Answer: B. Classification

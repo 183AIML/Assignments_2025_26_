@@ -1,171 +1,198 @@
-AIML-DA-01
+AIML-DA-01 Cloud Computing and Git
 
 1. Which command uploads local changes to a remote repository?
 A. git fetch
 B. git pull
 C. git push
 D. git merge
+Answer: C. git push
 
 2. What command is used to create a local Git repository?
 A. git stat
 B. git create
 C. git init
 D. git new
+Answer: C. git init
 
 3. What command stages files for commit?
 A. git push
 B. git stage
 C. git add
 D. git update
+Answer: C. git add
 
 4. Which command uploads local changes to a remote repository?
 A. git fetch
 B. git pull
 C. git push
 D. git merge
+Answer: C. git push
 
 5. What does the command git status do?
 A. Shows current commit ID
 B. Displays remote branch
 C. Shows the state of working directory and staging area
 D. Deletes a branch
+Answer: C. Shows the state of working directory and staging area
 
 6. Which of the following is used to create a new branch?
 A. git branch
 B. git fork
 C. git split
 D. git line
+Answer: A. git branch
 
 7. Which of the following is a key characteristic of cloud computing?
 A. Manual scaling
 B. On-demand self-service
 C. Physical data ownership
 D. Single tenant access
+Answer: B. On-demand self-service
 
 8. Which service model provides virtual machines and other fundamental resources?
 A. SaaS
 B. PaaS
 C. IaaS
 D. NaaS
+Answer: C. IaaS
 
 9. Which of the following is NOT a major cloud service provider?
 A. AWS
 B. Azure
 C. MySQL
 D. Google Cloud
+Answer: C. MySQL
 
 10. A startup wants to host its web application without investing in hardware. It also wants to scale as the user base grows. Which cloud service model is best?
 A. On-premise
 B. IaaS
 C. PaaS
 D. Co-location
+Answer: C. PaaS
 
 11. Your organization wants to build a secure internal app with full control over hardware and software. Which deployment model suits best?
 A. Public Cloud
 B. Hybrid Cloud
 C. Private Cloud
 D. Community Cloud
+Answer: C. Private Cloud
 
 12. A mobile app uses cloud storage to upload and access images anytime. Which cloud characteristic is most relevant?
 A. Elasticity
 B. On-demand access
 C. Virtualization
 D. Scalability
+Answer: B. On-demand access
 
 13. Two developers are working on different features of the same project. What should they do to avoid code conflicts?
 A. Use different Git repositories
 B. Work on the main branch
 C. Use separate branches
 D. Turn off version control
+Answer: C. Use separate branches
 
 14. You made a change in a file and committed it, but now you want to revert the file to its state before the commit. What Git command should you use?
 A. git reset
 B. git push
 C. git branch
 D. git merge
+Answer: A. git reset
 
 15. You cloned a repository and want to update your local copy with changes from the remote. What will you run?
 A. git merge
 B. git push
 C. git fetch origin
 D. git pull origin main
+Answer: D. git pull origin main
 
 16. You want to share your local commits with the team. What Git command do you use?
 A. git commit
 B. git push origin branch_name
 C. git clone
 D. git pull
+Answer: B. git push origin branch_name
 
 17. You are working on a team project. You should always create a separate ________ to work on your assigned task.
-(Answer expected: branch)
+Answer: branch
 
 18. What is the main purpose of version control?
 A. Encrypt source code
 B. Maintain multiple versions and track changes
 C. Compile the program automatically
 D. Run code faster
+Answer: B. Maintain multiple versions and track changes
 
 19. Which of the following is a distributed version control system?
 A. Subversion (SVN)
 B. CVS
 C. Git
 D. TFS
+Answer: C. Git
 
 20. In Git, what is a commit?
 A. A backup of a repository
 B. A comment on a file
 C. A snapshot of your changes
 D. A clone of the repo
+Answer: C. A snapshot of your changes
 
 21. Which service model is best suited for developers who want to build and deploy applications without managing the underlying infrastructure?
 A. IaaS
 B. PaaS
 C. SaaS
 D. FaaS
+Answer: B. PaaS
 
 22. Which of the following offers ready-to-use business applications over the internet?
 A. SaaS
 B. PaaS
 C. IaaS
+Answer: A. SaaS
 
 23. Which deployment model is ideal for hosting confidential data with full control and privacy?
 A. Private Cloud
 B. Public Cloud
 C. Hybrid Cloud
 D. Community Cloud
+Answer: A. Private Cloud
 
 24. Which deployment model offers a mix of public and private clouds, allowing data and applications to move between them?
 A. Public
 B. Hybrid
 C. Community
 D. Private
+Answer: B. Hybrid
 
 25. Google Workspace (formerly G Suite) is a popular example of ________ cloud service.
-(Answer expected: SaaS)
+Answer: SaaS
 
 26. Salesforce is a leading vendor in the ________ service model category.
-(Answer expected: SaaS)
+Answer: SaaS
 
 27. Which cloud service model typically requires the least amount of technical knowledge to use?
 A. IaaS
 B. PaaS
 C. SaaS
 D. FaaS
+Answer: C. SaaS
 
 28. Which of the following is the cloud computing platform offered by Amazon?
 A. Azure
 B. IBM Cloud
 C. AWS
 D. Oracle Cloud
+Answer: C. AWS
 
 29. Google Cloud's AI platform is called:
 A. AI Fabric
 B. TensorFlow Cloud
 C. Vertex AI
 D. CloudBot
+Answer: C. Vertex AI
 
 30. What does SLA stand for in cloud computing?
 A. Software License Agreement
 B. Secure Layer Authentication
 C. Service Level Agreement
 D. System Log Access
+Answer: C. Service Level Agreement

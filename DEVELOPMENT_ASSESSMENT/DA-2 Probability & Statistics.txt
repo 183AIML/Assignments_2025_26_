@@ -1,361 +1,421 @@
-AIML-DA-02
+AIML-DA-02 Probability and Statistics
 
 1. Which is an example of a sample?
 A. All students in India
 B. Students in one college
 C. Entire population of a country
 D. None
+Answer: B. Students in one college
 
 2. A variable that takes numeric values is called:
 A. Qualitative
 B. Quantitative
 C. Nominal
 D. Ordinal
+Answer: B. Quantitative
 
 3. Data like eye color belongs to which scale?
 A. Nominal
 B. Ordinal
 C. Interval
 D. Ratio
+Answer: A. Nominal
 
 4. Which scale has meaningful zero?
 A. Nominal
 B. Interval
 C. Ratio
 D. Ordinal
+Answer: C. Ratio
 
 5. Which is an example of discrete data?
 A. Weight
 B. Height
 C. Number of children
 D. Time
+Answer: C. Number of children
 
 6. What is descriptive statistics used for?
 A. Making predictions
 B. Summarizing data
 C. Hypothesis testing
 D. Regression
+Answer: B. Summarizing data
 
 7. Inferential statistics deals with:
 A. Summarizing data
 B. Drawing conclusions from sample to population
 C. Creating graphs
 D. Descriptive analysis
+Answer: B. Drawing conclusions from sample to population
 
 8. Parameter refers to:
 A. Sample statistic
 B. Population characteristic
 C. Data type
 D. None
+Answer: B. Population characteristic
 
 9. A statistic is:
 A. Population value
 B. Sample-based measure
 C. Random variable
 D. Unknown
+Answer: B. Sample-based measure
 
 10. The set of all possible outcomes is called:
 A. Event
 B. Sample space
 C. Random variable
 D. None
+Answer: B. Sample space
 
 11. Two events that cannot happen together are:
 A. Independent
 B. Mutually Exclusive
 C. Conditional
 D. None
+Answer: B. Mutually Exclusive
 
 12. If A and B are independent, then:
 A. P(A ∩ B) = P(A) + P(B)
 B. P(A ∩ B) = P(A) ⋅ P(B)
 C. P(A ∩ B) = 0
 D. None
+Answer: B. P(A ∩ B) = P(A) ⋅ P(B)
 
 13. Which formula represents union of two events?
 A. P(A ∪ B) = P(A) + P(B)
 B. P(A ∪ B) = P(A) + P(B) − P(A ∩ B)
 C. P(A ∪ B) = P(A) ⋅ P(B)
 D. None
+Answer: B. P(A ∪ B) = P(A) + P(B) − P(A ∩ B)
 
 14. What is the probability range?
 A. 1 to 1
 B. 0 to 10
 C. 0 to 1
 D. 1 to 100
+Answer: C. 0 to 1
 
 15. The probability of a sure event is:
 A. 0
 B. 1
 C. 0.5
 D. None
+Answer: B. 1
 
 16. Which is an example of dependent events?
 A. Tossing two coins
 B. Drawing cards without replacement
 C. Rolling two dice
 D. None
+Answer: B. Drawing cards without replacement
 
 17. The probability of an impossible event is:
 A. 0
 B. 1
 C. 0.5
 D. None
+Answer: A. 0
 
 18. If P(A) = 0.4, P(B) = 0.3 and A, B are mutually exclusive, P(A ∪ B) = ?
 A. 0.7
 B. 0.12
 C. 0.1
 D. None
+Answer: A. 0.7
 
 19. Conditional probability P(A|B) is:
 A. P(A) / P(A ∩ B)
 B. P(B) / P(A ∩ B)
 C. P(A) + P(B)
 D. None
+Answer: D. None  (Correct formula: P(A|B) = P(A ∩ B) / P(B))
 
 20. Which law uses conditional probability?
 A. Addition law
 B. Bayes’ theorem
 C. Multiplication law
 D. None
+Answer: B. Bayes’ theorem
 
 21. Joint probability means:
 A. P(A) + P(B)
 B. Probability of A and B together
 C. P(A|B)
 D. None
+Answer: B. Probability of A and B together
 
 22. If two events are mutually exclusive, P(A ∩ B) = ?
 A. 1
 B. 0
 C. P(A) ⋅ P(B)
 D. None
+Answer: B. 0
 
 23. Which is a complement event of A?
 A. A ∪ B
 B. Not A
 C. A ∩ B
 D. None
+Answer: B. Not A
 
 24. In Bayes' Theorem, denominator represents:
 A. Prior probability
 B. Marginal probability
 C. Likelihood
 D. Posterior probability
+Answer: B. Marginal probability
 
 25. Which application uses Bayes’ Theorem?
 A. Hypothesis testing
 B. Spam filtering
 C. Standard deviation
 D. Mean calculation
+Answer: B. Spam filtering
 
 26. Which is a discrete distribution?
 A. Normal
 B. Binomial
 C. Uniform
 D. Exponential
+Answer: B. Binomial
 
 27. Which is a continuous distribution?
 A. Binomial
 B. Normal
 C. Poisson
 D. Bernoulli
+Answer: B. Normal
 
 28. Normal distribution is also called:
 A. Gaussian
 B. Poisson
 C. Uniform
 D. None
+Answer: A. Gaussian
 
 29. Standard normal distribution mean is:
 A. 1
 B. 0
 C. n
 D. None
+Answer: B. 0
 
 30. Which distribution is symmetric?
 A. Normal
 B. Poisson
 C. Bernoulli
 D. None
+Answer: A. Normal
 
 31. Which of the following is an example of joint probability?
 A. Probability of getting 2 on a die
 B. Probability of getting a red card AND an ace
 C. Probability of rain tomorrow
 D. Probability of heads on a coin
+Answer: B. Probability of getting a red card AND an ace
 
 32. Null hypothesis symbol is:
 A. H1
 B. H0
 C. HA
 D. None
+Answer: B. H0
 
 33. Significance level α usually is:
 A. 0.05
 B. 0.5
 C. 0.005
 D. None
+Answer: A. 0.05
 
 34. p-value less than α means:
 A. Accept H0
 B. Reject H0
 C. Fail to reject H0
 D. None
+Answer: B. Reject H0
 
 35. Type I error occurs when:
 A. Rejecting true H0
 B. Accepting false H0
 C. Both
 D. None
+Answer: A. Rejecting true H0
 
 36. Type II error is:
 A. Rejecting true H0
 B. Accepting false H0
 C. None
 D. Both
+Answer: B. Accepting false H0
 
 37. CLT (Central Limit Theorem) states sample means follow:
 A. Uniform distribution
 B. Normal distribution
 C. Binomial distribution
 D. None
+Answer: B. Normal distribution
 
 38. Confidence interval gives:
 A. Exact population value
 B. Range of plausible values
 C. Hypothesis
 D. None
+Answer: B. Range of plausible values
 
 39. Skewness measures:
 A. Peakness
 B. Symmetry
 C. Spread
 D. None
+Answer: B. Symmetry
 
 40. Kurtosis measures:
 A. Peakness
 B. Symmetry
 C. Spread
 D. None
+Answer: A. Peakness
 
 41. Which of the following is NOT a measure of central tendency?
 A. Mean
 B. Median
 C. Mode
 D. Variance
+Answer: D. Variance
 
 42. Which measure of central tendency is most affected by extreme values?
 A. Mean
 B. Median
 C. Mode
 D. Geometric Mean
+Answer: A. Mean
 
 43. Which of the following is a measure of dispersion?
 A. Mean
 B. Range
 C. Median
 D. Mode
+Answer: B. Range
 
 44. Which of the following is NOT a part of descriptive statistics?
 A. Measures of central tendency
 B. Hypothesis testing
 C. Measures of dispersion
 D. Data visualization
+Answer: B. Hypothesis testing
 
 45. Which measure divides data into four equal parts?
 A. Percentiles
 B. Quartiles
 C. Deciles
 D. Median
+Answer: B. Quartiles
 
 46. Which of the following diagrams is commonly used in descriptive statistics?
 A. Pie chart
 B. Histogram
 C. Box plot
 D. All of the above
+Answer: D. All of the above
 
 47. What does a box plot show?
 A. Only mean
 B. Range, quartiles, and median
 C. Only mode
 D. None
+Answer: B. Range, quartiles, and median
 
 48. Which of the following is NOT true about the median?
 A. It is affected by extreme values.
 B. It divides the data into two halves.
 C. It can be used for ordinal data.
 D. It is a measure of central tendency.
+Answer: A. It is affected by extreme values.
 
 49. What does a histogram represent?
 A. Frequency distribution of continuous data
 B. Central tendency
 C. Correlation
 D. Cumulative frequency
+Answer: A. Frequency distribution of continuous data
 
 50. Interquartile Range (IQR) is defined as:
 A. Q3 − Q1
 B. Q2 − Q1
 C. Q4 − Q2
 D. Q1 − Q0
+Answer: A. Q3 − Q1
 
 51. A histogram is used for:
 A. Categorical data
 B. Continuous data frequency distribution
 C. Correlation analysis
 D. Time series data
+Answer: B. Continuous data frequency distribution
 
 52. Which plot is used to show the spread and outliers of data?
 A. Pie chart
 B. Box plot
 C. Line chart
 D. Area chart
+Answer: B. Box plot
 
 53. What does the height of a bar in a bar chart represent?
 A. Mean value
 B. Frequency or value of a category
 C. Standard deviation
 D. Median
+Answer: B. Frequency or value of a category
 
 54. Which graph is best suited to observe trends over time?
 A. Line chart
 B. Pie chart
 C. Box plot
 D. Histogram
+Answer: A. Line chart
 
 55. A scatter plot is mainly used for:
 A. Displaying mean values
 B. Showing the relationship between two variables
 C. Showing proportions
 D. Summarizing categories
+Answer: B. Showing the relationship between two variables
 
 56. What is the difference between a bar chart and a histogram?
 A. Bar charts are for categorical data, histograms are for continuous data.
 B. Both represent continuous data.
 C. Both represent categorical data.
 D. Histograms have gaps between bars.
+Answer: A. Bar charts are for categorical data, histograms are for continuous data.
 
 57. The number of cars in a parking lot is an example of:
 A. Continuous data
 B. Nominal data
 C. Discrete data
 D. Ordinal data
+Answer: C. Discrete data
 
 58. Customer satisfaction ratings (e.g., Poor, Average, Good) are an example of:
 A. Nominal data
 B. Ordinal data
 C. Continuous data
 D. Interval data
+Answer: B. Ordinal data
 
 59. Which type of data can take any value within a range?
 A. Nominal data
 B. Discrete data
 C. Continuous data
 D. Ordinal data
+Answer: C. Continuous data
 
 60. Interval data differs from ratio data because:
 A. Interval data has a true zero point
 B. Ratio data lacks a meaningful zero
 C. Interval data lacks a true zero point
 D. Ratio data is not numeric
+Answer: C. Interval data lacks a true zero point

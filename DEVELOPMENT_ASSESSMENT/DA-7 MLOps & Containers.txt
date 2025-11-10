@@ -1,0 +1,141 @@
+AIML-DA-07 — MLOps & Containers
+
+1. The primary goal of MLOps is to:
+A. Reduce model accuracy
+B. Bridge gap between ML development and operations
+C. Replace DevOps entirely
+D. Increase model complexity
+Answer: B. Bridge gap between ML development and operations
+
+2. Which of the following is NOT a stage in the MLOps lifecycle?
+A. Data collection
+B. Model deployment
+C. Model destruction
+D. Model monitoring
+Answer: C. Model destruction
+
+3. MLOps integrates concepts mainly from:
+A. DevOps and Data Science
+B. Cybersecurity and Networking
+C. Big Data and Cloud Storage
+D. Blockchain and IoT
+Answer: A. DevOps and Data Science
+
+4. Which phase of MLOps focuses on real-time prediction and feedback?
+A. Deployment
+B. Monitoring
+C. Training
+D. Data preprocessing
+Answer: B. Monitoring
+
+5. Model drift refers to:
+A. Model training failure
+B. Change in data patterns over time causing reduced accuracy
+C. Container migration
+D. Overfitting due to noise
+Answer: B. Change in data patterns over time causing reduced accuracy
+
+6. What is Docker used for?
+A. Operating system installation
+B. Virtual machine creation
+C. Containerization of applications
+D. Data visualization
+Answer: C. Containerization of applications
+
+7. A Docker container is:
+A. A lightweight virtual machine
+B. An isolated environment to run an application
+C. A network configuration tool
+D. A storage disk image
+Answer: B. An isolated environment to run an application
+
+8. The command to list all Docker containers is:
+A. docker list
+B. docker ps
+C. docker show
+D. docker -a
+Answer: B. docker ps
+
+9. The Dockerfile instruction `FROM` specifies:
+A. The container output
+B. The base image for the build
+C. The port number
+D. The execution script
+Answer: B. The base image for the build
+
+10. Which component of Docker runs containers?
+A. Docker Client
+B. Docker Daemon
+C. Docker Registry
+D. Docker Hub
+Answer: B. Docker Daemon
+
+11. The command `docker build -t myimage .` does what?
+A. Builds a Docker image from a Dockerfile
+B. Runs a Docker container
+C. Pulls an image from Docker Hub
+D. Lists images
+Answer: A. Builds a Docker image from a Dockerfile
+
+12. The command `docker run -p 5000:5000 myapp` means:
+A. Runs a container on port 5000 inside and outside host
+B. Connects two containers
+C. Pulls a container image
+D. Deletes a container
+Answer: A. Runs a container on port 5000 inside and outside host
+
+13. Which command removes a running container?
+A. docker stop
+B. docker delete
+C. docker halt
+D. docker end
+Answer: A. docker stop
+
+14. A key difference between containers and virtual machines is:
+A. Containers have their own OS kernel
+B. Containers share the host OS kernel
+C. Containers use more memory
+D. Containers are hardware-based
+Answer: B. Containers share the host OS kernel
+
+15. To push a Docker image to Docker Hub, which command is used?
+A. docker upload
+B. docker push
+C. docker deploy
+D. docker export
+Answer: B. docker push
+
+16. What is meant by "deployment" in MLOps?
+A. Building a model
+B. Installing Python
+C. Making an ML model available for use
+D. Collecting data
+Answer: C. Making an ML model available for use
+
+17. Which of the following is NOT a deployment strategy?
+A. Recreate
+B. Blue-Green
+C. Rolling Update
+D. Data Augmentation
+Answer: D. Data Augmentation
+
+18. In a Blue-Green deployment, the main goal is to:
+A. Run two environments to ensure zero downtime
+B. Replace the model manually
+C. Reduce CPU usage
+D. Increase retraining speed
+Answer: A. Run two environments to ensure zero downtime
+
+19. Canary deployment means:
+A. Deploying model to a small subset of users first
+B. Deploying model directly to all users
+C. Using containers for testing
+D. Manual validation after deployment
+Answer: A. Deploying model to a small subset of users first
+
+20. Shadow deployment differs from canary deployment by:
+A. Running new version in parallel without user impact
+B. Completely replacing the old version
+C. Using zero containers
+D. Deploying only on weekends
+Answer: A. Running new version in parallel without user impact

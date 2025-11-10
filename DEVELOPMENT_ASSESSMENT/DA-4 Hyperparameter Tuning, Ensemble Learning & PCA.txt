@@ -1,0 +1,281 @@
+AIML-DA-04 — Hyperparameter Tuning, Ensemble Learning & PCA
+
+1. Which of the following are model parameters, not hyperparameters?
+A. Weights in Logistic Regression
+B. Regularization strength C in Logistic Regression
+C. max_depth in Decision Tree
+D. Support vectors in SVM
+Answer: A. Weights in Logistic Regression
+
+2. In a Decision Tree classifier, which hyperparameter prevents overfitting by limiting tree complexity?
+A. max_depth
+B. min_samples_split
+C. min_samples_leaf
+D. All of the above
+Answer: A. max_depth
+
+3. When tuning SVM with RBF kernel, what is the effect of increasing gamma?
+A. Makes decision boundary smoother (less overfitting)
+B. Makes decision boundary more complex (risk of overfitting)
+C. Increases margin width
+D. Has no effect
+Answer: B. Makes decision boundary more complex (risk of overfitting)
+
+4. Which hyperparameter in Logistic Regression controls the amount of regularization?
+A. penalty
+B. solver
+C. C
+D. max_iter
+Answer: C. C
+
+5. You run a GridSearchCV with a very large parameter grid. Which of the following is MOST likely?
+A. Fast search but poor performance
+B. Very slow search but exhaustive
+C. Random exploration of parameter space
+D. Tuning may fail due to no refitting
+Answer: B. Very slow search but exhaustive
+
+6. Which statement about GridSearchCV is FALSE?
+A. It can use multiple scoring metrics
+B. It can perform cross-validation
+C. It automatically chooses hyperparameters during training updates
+D. It can refit the best model
+Answer: C. It automatically chooses hyperparameters during training updates
+
+7. Which hyperparameter in SVM controls the trade-off between margin size and misclassification errors?
+A. gamma
+B. kernel
+C. C
+D. degree
+Answer: C. C
+
+8. You use GridSearchCV with cv=5 on a dataset of 1000 samples. How many models are trained per hyperparameter combination?
+A. 5
+B. 1000
+C. 200
+D. 1
+Answer: A. 5
+
+9. Which advanced method discards poorly performing hyperparameter configurations early to save time?
+A. Grid Search
+B. Random Search
+C. Hyperband / Successive Halving
+D. Cross-validation
+Answer: C. Hyperband / Successive Halving
+
+10. If you include the test set during hyperparameter tuning, what problem occurs?
+A. Data Leakage
+B. Over-regularization
+C. Underfitting
+D. Faster convergence
+Answer: A. Data Leakage
+
+11. You are tuning Logistic Regression for the Breast Cancer dataset. You try values of C = [0.01, 0.1, 1, 10]. When C=0.01, the model underfits. What is the correct reason?
+A. C=0.01 applies strong regularization, shrinking coefficients too much.
+B. C=0.01 applies weak regularization, allowing overfitting.
+C. Logistic regression cannot handle this dataset.
+D. C has no effect on model complexity.
+Answer: A. C=0.01 applies strong regularization, shrinking coefficients too much.
+
+12. You train a Decision Tree without setting max_depth, and it achieves 100% training accuracy but only 70% test accuracy. What hyperparameter should you tune first to reduce overfitting?
+A. criterion
+B. max_depth
+C. splitter
+D. random_state
+Answer: B. max_depth
+
+13. On the Breast Cancer dataset, you use an SVM with RBF kernel. With gamma=0.0001, both train and test accuracy are low. What is the most likely reason?
+A. Gamma is too low, decision boundary is too simple.
+B. Gamma is too high, causing overfitting.
+C. Kernel is wrong; should use linear kernel.
+D. C value is too high.
+Answer: A. Gamma is too low, decision boundary is too simple.
+
+14. You perform GridSearchCV with parameter grid = {"max_depth": [3, 5, 7, None], "min_samples_split": [2, 5, 10]} and cv=5. How many models are trained in total?
+A. 12
+B. 60
+C. 20
+D. 15
+Answer: B. 60
+
+15. While tuning hyperparameters, a student mistakenly used the test set inside GridSearchCV. What happens?
+A. Test accuracy will be underestimated.
+B. Model will overfit training data only.
+C. Hyperparameters will be biased toward test set, giving overly optimistic results.
+D. Nothing significant.
+Answer: C. Hyperparameters will be biased toward test set, giving overly optimistic results.
+
+16. For an SVM with RBF kernel and a large search space for C and gamma, which tuning method is most efficient to try first?
+A. Grid Search
+B. Random Search
+C. Manual Search
+D. Successive Halving
+Answer: B. Random Search
+
+17. You run GridSearchCV with Logistic Regression and find the best C=1.0. How do you get the best model for predictions?
+A. grid.best_params_
+B. grid.best_score_
+C. grid.best_estimator_
+D. grid.cv_results_
+Answer: C. grid.best_estimator_
+
+18. You restrict max_depth=2 for a Decision Tree on Breast Cancer dataset, but accuracy is only 65% on both train and test sets. What is happening?
+A. Overfitting
+B. Underfitting
+C. Data Leakage
+D. High variance
+Answer: B. Underfitting
+
+19. Which hyperparameter in SVM directly controls how much misclassification is tolerated?
+A. gamma
+B. degree
+C. kernel
+D. C
+Answer: D. C
+
+20. Which of the following best describes ensemble learning?
+A. Training a single model with more epochs
+B. Combining multiple models to achieve better performance
+C. Using deep learning models instead of shallow ones
+D. Training models only in parallel
+Answer: B. Combining multiple models to achieve better performance
+
+21. What is the main idea behind bagging?
+A. Assigning higher weights to misclassified examples
+B. Combining weak learners sequentially
+C. Training base learners on different random subsets with replacement
+D. Reducing bias by averaging predictions from one model
+Answer: C. Training base learners on different random subsets with replacement
+
+22. In boosting, each new learner is trained to:
+A. Reduce correlation between models
+B. Correct mistakes made by previous learners
+C. Train on a completely random subset of data
+D. Maximize variance
+Answer: B. Correct mistakes made by previous learners
+
+23. Which of the following ensemble methods is an example of parallel ensemble learning?
+A. AdaBoost
+B. Gradient Boosting
+C. Random Forest
+D. XGBoost
+Answer: C. Random Forest
+
+24. What type of sampling is used in bagging?
+A. Random sampling without replacement
+B. Random sampling with replacement (bootstrap)
+C. Stratified sampling
+D. Systematic sampling
+Answer: B. Random sampling with replacement (bootstrap)
+
+25. In Random Forest, why is feature randomness (max_features) used?
+A. To reduce training time
+B. To ensure trees are less correlated
+C. To increase leaf nodes
+D. To decrease variance per tree
+Answer: B. To ensure trees are less correlated
+
+26. Which of the following is a major disadvantage of ensemble learning?
+A. It always increases bias
+B. It is less interpretable and computationally expensive
+C. It cannot handle non-linear data
+D. It doesn’t reduce variance
+Answer: B. It is less interpretable and computationally expensive
+
+27. In boosting, if a data point is misclassified repeatedly, what usually happens?
+A. Its weight decreases
+B. Its weight increases
+C. It gets removed
+D. The model ignores it
+Answer: B. Its weight increases
+
+28. Which of the following pairs correctly matches method with base idea?
+A. Bagging – Reduce bias
+B. Boosting – Reduce variance
+C. Bagging – Reduce variance
+D. Boosting – Reduce interpretability only
+Answer: C. Bagging – Reduce variance
+
+29. You are training a model for a medical diagnosis dataset (high-stakes, small dataset). The base tree overfits. Which ensemble method is better?
+A. Bagging
+B. Boosting
+C. Logistic Regression
+D. K-Means
+Answer: B. Boosting
+
+30. In clustering, the goal is to:
+A. Minimize within-cluster similarity
+B. Maximize between-cluster similarity
+C. Both (a) and (b)
+D. None of the above
+Answer: C. Both (a) and (b)
+
+31. K-Means clustering requires:
+A. Pre-defined number of clusters (k)
+B. Distance metric
+C. Random initialization of centroids
+D. All of the above
+Answer: D. All of the above
+
+32. The main drawback of K-Means clustering is:
+A. It can only handle categorical data
+B. It requires knowing the number of clusters in advance
+C. It’s not suitable for large datasets
+D. It doesn’t use distance metrics
+Answer: B. It requires knowing the number of clusters in advance
+
+33. Which metric is commonly used to evaluate clustering results without ground truth labels?
+A. Accuracy
+B. Adjusted Rand Index
+C. Silhouette Score
+D. F1 Score
+Answer: C. Silhouette Score
+
+34. Dimensionality reduction is mainly used to:
+A. Increase features
+B. Reduce noise and redundancy
+C. Increase complexity
+D. Improve overfitting
+Answer: B. Reduce noise and redundancy
+
+35. In PCA, the new axes (principal components) are:
+A. Original features scaled
+B. Orthogonal linear combinations of features
+C. Random projections
+D. Nonlinear transformations
+Answer: B. Orthogonal linear combinations of features
+
+36. The first principal component (PC1) captures:
+A. The smallest variance in data
+B. The largest variance in data
+C. Only categorical variance
+D. No variance
+Answer: B. The largest variance in data
+
+37. Eigenvalues in PCA represent:
+A. Variance explained by each principal component
+B. Angle between components
+C. Mean of dataset
+D. Correlation coefficient
+Answer: A. Variance explained by each principal component
+
+38. Which step comes first in PCA?
+A. Compute eigenvalues/eigenvectors
+B. Standardize dataset
+C. Project data onto new space
+D. Compute covariance matrix
+Answer: B. Standardize dataset
+
+39. If two variables are highly correlated, PCA will:
+A. Drop one variable
+B. Merge them into a principal component
+C. Ignore both variables
+D. Assign them to PC2
+Answer: B. Merge them into a principal component
+
+40. The curse of dimensionality generally refers to:
+A. Increased computation as data grows in rows
+B. Problems when data has too many features
+C. Errors in labeling
+D. Lack of training samples
+Answer: B. Problems when data has too many features
