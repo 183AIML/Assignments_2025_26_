@@ -1,0 +1,492 @@
+AIML — Practice Test 1
+
+1. Which of the following best describes Artificial Intelligence?
+A. Programming machines to perform repetitive tasks
+B. Enabling machines to mimic human-like perception, reasoning, and learning
+C. Using large datasets for statistical computation
+D. Developing complex mathematical algorithms only
+Answer: B. Enabling machines to mimic human-like perception, reasoning, and learning
+
+2. The rational agent approach in AI focuses on:
+A. Following human emotions
+B. Acting in a way that maximizes expected performance measure
+C. Minimizing energy consumption
+D. Performing all possible actions simultaneously
+Answer: B. Acting in a way that maximizes expected performance measure
+
+3. Strong AI refers to systems that:
+A. Simulate human reasoning but lack consciousness
+B. Are pre-programmed with expert knowledge
+C. Exhibit genuine intelligence and self-awareness
+D. Are limited to rule-based systems
+Answer: C. Exhibit genuine intelligence and self-awareness
+
+4. Which component of AI is responsible for drawing conclusions from data?
+A. Learning
+B. Reasoning
+C. Perception
+D. Knowledge representation
+Answer: B. Reasoning
+
+5. Expert systems fall under which category of AI techniques?
+A. Reactive
+B. Cognitive
+C. Knowledge-based
+D. Neural-based
+Answer: C. Knowledge-based
+
+6. Which of the following is not a type of learning in Machine Learning?
+A. Supervised Learning
+B. Reinforcement Learning
+C. Associative Learning
+D. Unsupervised Learning
+Answer: C. Associative Learning
+
+7. A model that continuously improves its performance through feedback is using:
+A. Supervised Learning
+B. Reinforcement Learning
+C. Unsupervised Learning
+D. Semi-supervised Learning
+Answer: B. Reinforcement Learning
+
+8. The bias-variance tradeoff in ML refers to:
+A. Balancing training and test data
+B. Balancing underfitting and overfitting
+C. Balancing precision and recall
+D. Balancing classification and regression
+Answer: B. Balancing underfitting and overfitting
+
+9. The first stage in machine learning model development is:
+A. Model tuning
+B. Data preprocessing
+C. Feature engineering
+D. Evaluation
+Answer: B. Data preprocessing
+
+10. Which of the following is a real-world application of supervised learning?
+A. Market basket analysis
+B. Clustering customers
+C. Spam detection
+D. Topic modeling
+Answer: C. Spam detection
+
+11. The 5 Vs of Big Data include all except:
+A. Volume
+B. Velocity
+C. Variety
+D. Visualization
+Answer: D. Visualization
+
+12. Which V of Big Data refers to data consistency and reliability?
+A. Variety
+B. Veracity
+C. Velocity
+D. Volume
+Answer: B. Veracity
+
+13. The major influence of Big Data on AI is:
+A. Reducing model complexity
+B. Enabling better feature selection through vast datasets
+C. Making algorithms less interpretable
+D. Increasing bias in models
+Answer: B. Enabling better feature selection through vast datasets
+
+14. Data Science is best defined as:
+A. A subset of AI focusing on computer vision
+B. Extracting knowledge and insights from data using scientific methods
+C. Creating dashboards from data
+D. Building neural networks only
+Answer: B. Extracting knowledge and insights from data using scientific methods
+
+15. In a Data Science project pipeline, model evaluation comes after:
+A. Model deployment
+B. Data collection
+C. Model training
+D. Feature selection
+Answer: C. Model training
+
+16. A major application of Data Science in business is:
+A. Predictive analytics
+B. Static website generation
+C. File compression
+D. Encryption
+Answer: A. Predictive analytics
+
+17. The aggregate() function in Pandas:
+A. Applies a single function to all columns
+B. Allows multiple aggregations per column
+C. Works only on numeric data
+D. Replaces missing values
+Answer: B. Allows multiple aggregations per column
+
+18. The pivot() function in Pandas is mainly used to:
+A. Transform rows into columns
+B. Combine multiple DataFrames
+C. Remove duplicates
+D. Group by values
+Answer: A. Transform rows into columns
+
+19. The melt() function in Pandas performs the reverse of:
+A. concat()
+B. join()
+C. pivot()
+D. groupby()
+Answer: C. pivot()
+
+20. In Pandas, map() and applymap() differ in that:
+A. map() works on DataFrames, applymap() on Series
+B. map() works on Series, applymap() on DataFrames
+C. both are identical
+D. applymap() cannot use lambda functions
+Answer: B. map() works on Series, applymap() on DataFrames
+
+21. A reduce operation on a DataFrame aims to:
+A. Filter rows
+B. Aggregate multiple elements into a single value
+C. Create pivot tables
+D. Transform categorical data
+Answer: B. Aggregate multiple elements into a single value
+
+22. To select all data from June month every year in a time series index:
+A. df['June']
+B. df[df.index.month == 6]
+C. df['month'==6]
+D. df.query("month==6")
+Answer: B. df[df.index.month == 6]
+
+23. The need for data visualization is primarily to:
+A. Reduce data redundancy
+B. Simplify data cleaning
+C. Communicate insights effectively
+D. Increase data storage
+Answer: C. Communicate insights effectively
+
+24. In Matplotlib, the anatomy of a figure includes all except:
+A. Axes
+B. Title
+C. Legend
+D. Layout manager
+Answer: D. Layout manager
+
+25. Which Seaborn plot is most suitable for visualizing correlations?
+A. Bar plot
+B. Heatmap
+C. Countplot
+D. Violin plot
+Answer: B. Heatmap
+
+26. Cross-sectional data refers to:
+A. Data collected over time
+B. Data collected at a single point in time across entities
+C. Data with missing values
+D. Aggregated temporal data
+Answer: B. Data collected at a single point in time across entities
+
+27. Time series data differs from cross-sectional data mainly by:
+A. Variable type
+B. Dependency over time
+C. Missing attributes
+D. Data format
+Answer: B. Dependency over time
+
+28. The type of data representing categories with intrinsic order is:
+A. Nominal
+B. Ordinal
+C. Interval
+D. Ratio
+Answer: B. Ordinal
+
+29. Ratio data differs from interval data by having:
+A. Equal intervals
+B. True zero point
+C. Categorical values
+D. Constant variance
+Answer: B. True zero point
+
+30. A major vulnerability of mean as a measure of central tendency is:
+A. It ignores sample size
+B. It is affected by extreme values
+C. It is non-unique
+D. It cannot be computed on ratio data
+Answer: B. It is affected by extreme values
+
+31. The variance is more robust than the mean for detecting:
+A. Skewness
+B. Outliers
+C. Central tendency
+D. Frequency
+Answer: B. Outliers
+
+32. Which NumPy function computes the mean along a specified axis?
+A. np.aggregate()
+B. np.mean()
+C. np.axis_mean()
+D. np.vectorize_mean()
+Answer: B. np.mean()
+
+33. The vectorized operations in NumPy are efficient because:
+A. They use loops written in Python
+B. They are implemented in C and use broadcasting
+C. They store intermediate results in memory
+D. They use recursion
+Answer: B. They are implemented in C and use broadcasting
+
+34. Which function is used to apply custom lambda logic element-wise to arrays?
+A. np.vectorize()
+B. np.map()
+C. np.apply()
+D. np.lambda_apply()
+Answer: A. np.vectorize()
+
+35. A Type I error occurs when:
+A. A true null hypothesis is rejected
+B. A false null hypothesis is accepted
+C. Both hypotheses are rejected
+D. None of the above
+Answer: A. A true null hypothesis is rejected
+
+36. The significance level (α) represents:
+A. Probability of Type II error
+B. Probability of rejecting true null hypothesis
+C. Power of the test
+D. Confidence interval
+Answer: B. Probability of rejecting true null hypothesis
+
+37. The p-value smaller than α indicates:
+A. Fail to reject null
+B. Accept null
+C. Reject null
+D. Insufficient evidence
+Answer: C. Reject null
+
+38. The primary goal of EDA is to:
+A. Build predictive models
+B. Explore patterns, anomalies, and relationships in data
+C. Automate hypothesis testing
+D. Conduct feature scaling
+Answer: B. Explore patterns, anomalies, and relationships in data
+
+39. Which plot is most effective for detecting outliers?
+A. Bar plot
+B. Box plot
+C. Line plot
+D. Histogram
+Answer: B. Box plot
+
+40. Correlation matrix is used in EDA to:
+A. Identify missing values
+B. Measure linear relationships between features
+C. Detect non-linear patterns
+D. Normalize features
+Answer: B. Measure linear relationships between features
+
+41. A right-skewed distribution indicates:
+A. Mean > Median
+B. Mean < Median
+C. Symmetrical shape
+D. No outliers
+Answer: A. Mean > Median
+
+42. Feature engineering typically follows EDA because:
+A. EDA defines target variables
+B. EDA identifies feature relevance and relationships
+C. EDA eliminates class imbalance
+D. EDA generates labels automatically
+Answer: B. EDA identifies feature relevance and relationships
+
+43. In EDA, handling missing values using median instead of mean is preferred when:
+A. Data is normally distributed
+B. Data is skewed
+C. Data is categorical
+D. Data is binary
+Answer: B. Data is skewed
+
+44. If your AI model performance improves only when data volume increases significantly, the issue likely lies in:
+A. Algorithm design
+B. Underfitting due to small dataset
+C. Data leakage
+D. Improper validation strategy
+Answer: B. Underfitting due to small dataset
+
+45. When using Pandas melt, the id_vars parameter is used to:
+A. Specify columns to unpivot
+B. Keep certain columns fixed
+C. Define index levels
+D. Remove duplicates
+Answer: B. Keep certain columns fixed
+
+46. A low p-value with high R² indicates:
+A. Strong correlation but poor model
+B. Statistically significant and good fit
+C. Overfitted model
+D. Model bias
+Answer: B. Statistically significant and good fit
+
+47. In Big Data pipelines, data veracity challenges are addressed using:
+A. Data duplication
+B. Data cleaning and validation
+C. Increasing sample size
+D. Compression techniques
+Answer: B. Data cleaning and validation
+
+48. The reduce() function in Python can be best described as:
+A. Sequentially combining elements using a function
+B. Removing duplicates
+C. Mapping elements to keys
+D. Filtering arrays
+Answer: A. Sequentially combining elements using a function
+
+49. In hypothesis testing, increasing the sample size generally:
+A. Increases Type I error
+B. Decreases power
+C. Increases test sensitivity
+D. Makes test unreliable
+Answer: C. Increases test sensitivity
+
+50. The most appropriate EDA tool to identify feature correlation before ML model training is:
+A. Box plot
+B. Heatmap
+C. Pie chart
+D. Scatter matrix
+Answer: B. Heatmap
+
+51. A hospital AI system improves with every new patient record. Which technique?
+A. Rule-based reasoning
+B. Machine Learning
+C. Natural Language Processing
+D. Expert Systems
+Answer: B. Machine Learning
+
+52. A chatbot understands questions, retrieves info, and replies in natural language. Which AI components?
+A. Vision and Motion
+B. Learning and Perception
+C. NLP and Knowledge Representation
+D. Planning and Robotics
+Answer: C. NLP and Knowledge Representation
+
+53. A regression model performs well on training but poorly on test data indicates:
+A. Underfitting
+B. Overfitting
+C. Regularization
+D. Cross-validation error
+Answer: B. Overfitting
+
+54. A retail company generating terabytes of daily data. Most relevant Vs?
+A. Variety and Veracity
+B. Volume and Velocity
+C. Velocity and Veracity
+D. Volume and Visualization
+Answer: B. Volume and Velocity
+
+55. AI model improves after adding massive datasets—what helped?
+A. Data Veracity
+B. Data Variety
+C. Data Volume
+D. Data Velocity
+Answer: C. Data Volume
+
+56. Movie recommendation based on similar users is:
+A. Classification
+B. Clustering
+C. Reinforcement Learning
+D. Collaborative Filtering
+Answer: D. Collaborative Filtering
+
+57. An autonomous drone learns to land smoothly via rewards. This is:
+A. Supervised
+B. Reinforcement
+C. Unsupervised
+D. Semi-supervised
+Answer: B. Reinforcement
+
+58. E-commerce platform segments customers and predicts purchasing. This represents:
+A. Data Visualization
+B. Predictive Analytics
+C. Data Warehousing
+D. Prescriptive Modeling
+Answer: B. Predictive Analytics
+
+59. You need total and average sales per quarter. Most appropriate NumPy functions:
+A. np.mean(), np.sum()
+B. np.average(), np.min()
+C. np.median(), np.percentile()
+D. np.std(), np.var()
+Answer: A. np.mean(), np.sum()
+
+60. Fastest method to compute profit = revenue - cost for 1M elements:
+A. For loop subtraction
+B. map() with lambda
+C. Vectorized subtraction using NumPy
+D. List comprehension
+Answer: C. Vectorized subtraction using NumPy
+
+61. Average profit per region:
+A. df.aggregate('mean')
+B. df.groupby('Region')['Profit'].mean()
+C. df.pivot_table(index='Month', values='Profit')
+D. df.melt('Profit')
+Answer: B. df.groupby('Region')['Profit'].mean()
+
+62. Display regions as columns and months as rows:
+A. groupby()
+B. melt()
+C. pivot()
+D. transpose()
+Answer: C. pivot()
+
+63. Sentiment scoring per review efficiently uses:
+A. map() with lambda returning sentiment score
+B. reduce() to combine all reviews
+C. groupby()
+D. melt()
+Answer: A. map() with lambda returning sentiment score
+
+64. Compute average June sales across all years:
+A. df[df.index.month == 6].mean()
+B. df.query('month == June')
+C. df[df.Month == "June"]
+D. df.groupby('Month').mean()
+Answer: A. df[df.index.month == 6].mean()
+
+65. Best visualization to check for outliers:
+A. Line chart
+B. Box plot
+C. Heatmap
+D. Scatter plot
+Answer: B. Box plot
+
+66. Heatmap shows correlation = 0.9 between Price and Discount. Interpretation:
+A. High price increases discount
+B. Higher discount corresponds to lower price
+C. Price and discount are independent
+D. Data is not correlated
+Answer: B. Higher discount corresponds to lower price (strong negative relationship if sign is negative)
+
+67. Satisfaction levels (Poor, Average, Good, Excellent) are:
+A. Nominal
+B. Ordinal
+C. Interval
+D. Ratio
+Answer: B. Ordinal
+
+68. Salary dataset has one very high outlier. Use instead of mean:
+A. Variance
+B. Median
+C. Standard deviation
+D. Mode
+Answer: B. Median
+
+69. A/B test p-value = 0.03, α = 0.05. Conclusion:
+A. Fail to reject null
+B. Reject null hypothesis — difference is significant
+C. Increase sample size
+D. Accept null hypothesis
+Answer: B. Reject null hypothesis — difference is significant
+
+70. Concluding a difference exists when it does not is:
+A. Type I error
+B. Type II error
+C. Sampling bias
+D. Regression error
+Answer: A. Type I error
+    
